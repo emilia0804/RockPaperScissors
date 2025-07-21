@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    color: rgb(110, 31, 31);
+    padding: 25px;
+}
+
+#buttons{
+    text-align: center;   
+}
+
+#rockBtn, 
+#paperBtn,
+#scissorBtn{
+    border: none;
+    padding: 10px;
+    background-color: rgb(110, 31, 31);
+    color: white;
+    border-radius: 5px;
+}
+#container{
+    background-color: pink;
+    width: 50%;
+    height: 55vh;
+    margin: auto;
+    border-radius: 15px;
+}
+
+div{
+    margin-left: 10px;
+    color: rgb(110, 31, 31);
+    font-size: small;
+}
